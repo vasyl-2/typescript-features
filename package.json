@@ -1,12 +1,18 @@
 {
   "name": "try-things",
-  "version": "1.3.5",
+  "version": "1.4.4",
   "description": "try",
-  "main": "dist/index.js",
-  "types": "decl/index.d.ts",
+  "main": "dist/test.js",
+  "types": "decl/test.d.ts",
   "scripts": {
-    "start": "tsc"
+    "start": "tsc",
+    "package-do": "npm pack"
   },
+  "files": [
+    "dist",
+    "decl",
+    "src"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",

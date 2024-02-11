@@ -9,8 +9,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.BugReport = void 0;
+exports.BugReportTwo = exports.BugReport = void 0;
 const sealed_1 = require("./function-dedcorators/sealed");
+const extend_ctor_1 = require("./function-dedcorators/extend-ctor");
 let BugReport = class BugReport {
     constructor(t) {
         this.type = 'report';
@@ -22,4 +23,15 @@ exports.BugReport = BugReport = __decorate([
     sealed_1.sealed,
     __metadata("design:paramtypes", [String])
 ], BugReport);
+let BugReportTwo = class BugReportTwo {
+    constructor(t) {
+        this.type = 'report';
+        this.title = t;
+    }
+};
+exports.BugReportTwo = BugReportTwo;
+exports.BugReportTwo = BugReportTwo = __decorate([
+    extend_ctor_1.reportableClassDecorator,
+    __metadata("design:paramtypes", [String])
+], BugReportTwo);
 //# sourceMappingURL=index.js.map

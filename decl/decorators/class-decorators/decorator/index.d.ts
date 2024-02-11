@@ -3,4 +3,9 @@ export declare class BugReport {
     title: string;
     constructor(t: string);
 }
+export declare class BugReportTwo {
+    type: string;
+    title: string;
+    constructor(t: string);
+}
 //# sourceMappingURL=index.d.ts.map

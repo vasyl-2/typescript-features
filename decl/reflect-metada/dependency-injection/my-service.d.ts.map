@@ -1,0 +1,1 @@
+{"version":3,"file":"my-service.d.ts","sourceRoot":"","sources":["../../../src/reflect-metada/dependency-injection/my-service.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAE/C,qBACa,SAAS;IACN,OAAO,CAAC,WAAW;gBAAX,WAAW,EAAE,YAAY;IAE7C,WAAW,IAAI,IAAI;CAGtB"}

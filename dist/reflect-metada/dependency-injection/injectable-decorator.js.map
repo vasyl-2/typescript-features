@@ -1,0 +1,1 @@
+{"version":3,"file":"injectable-decorator.js","sourceRoot":"","sources":["../../../src/reflect-metada/dependency-injection/injectable-decorator.ts"],"names":[],"mappings":";;;AAAA,SAAgB,UAAU;IACtB,OAAO,UAAU,MAAW;QACxB,OAAO,CAAC,cAAc,CAAC,YAAY,EAAE,IAAI,EAAE,MAAM,CAAC,CAAC;IACvD,CAAC,CAAC;AACN,CAAC;AAJD,gCAIC"}

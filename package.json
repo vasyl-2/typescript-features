@@ -8,7 +8,8 @@
     "start": "tsc",
     "package-do": "npm pack",
     "package-remove": "npm unpublish try-things@1.2.0",
-    "publish": "npm publish"
+    "publish": "npm publish",
+    "test-run": "node dist/test.js"
   },
   "files": [
     "dist",

@@ -66,10 +66,11 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], User.prototype, "changePassword", null);
 const user = new User("JohnDoe", "password123");
+// if no calls to these methods then reflect.getmetadata will produce undefined
 user.getUsername();
 user.changePassword("password123", 'newPasswd');
 const role = Reflect.getMetadata("role", user, "getUsername");
-console.log('ROLE____________1', role); // "admin" // logs undefined  ?....
+console.log('ROLE____________1', role);
 const role2 = Reflect.getMetadata("role", user, "changePassword");
-console.log('ROLE_____________2', role2); // "user" // logs undefined  ?....
+console.log('ROLE_____________2', role2);
 //# sourceMappingURL=index.js.map
